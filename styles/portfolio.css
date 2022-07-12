@@ -1,3 +1,17 @@
+/* font-family: "Montserrat", sans-serif;
+font-family: "Playfair Display", serif; */
+
 body {
-  background: aliceblue;
+  background: papayawhip;
+}
+
+h1 {
+  color: navy;
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
+
+p {
+  color: navy;
+  font-family: "Montserrat", sans-serif;
 }
