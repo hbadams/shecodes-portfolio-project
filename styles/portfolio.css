@@ -1,17 +1,56 @@
 /* font-family: "Montserrat", sans-serif;
 font-family: "Playfair Display", serif; */
-
-body {
-  background: papayawhip;
+:root {
+  --background-color: #fcf8e8;
+  --primary-color: #94b49f;
+  --font-color: #df7861;
+  --heading-font-family: "Playfair Display", serif;
+  --normal-font-family: "Montserrat", sans-serif;
 }
-
-h1 {
-  color: navy;
-  font-family: "Playfair Display", serif;
-  font-weight: normal;
+h1,
+h2,
+h3 {
+  color: var(--font-color);
+  font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 
 p {
-  color: navy;
-  font-family: "Montserrat", sans-serif;
+  color: var(--font-color);
+  font-family: var(--normal-font-family);
+}
+
+.hero {
+  background: var(--background-color);
+  text-align: center;
+  line-height: 1.5;
+  padding: 160px 15px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h1 {
+  font-size: 96px;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-family: var(--normal-font-family);
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 14px 28px;
 }
